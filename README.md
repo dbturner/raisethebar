@@ -3,7 +3,7 @@ Thanks for visiting our course in Raising the bar: Learning and teaching better 
 
 More information to come!
 
-Binder container link here:
+Binder container link here: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dbturner/raisethebar/binder)
 
 <hr>
 
