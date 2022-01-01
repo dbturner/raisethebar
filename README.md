@@ -1,9 +1,11 @@
 <img src="static/logo.svg" align="center" width="200px"/>
 Thanks for visiting our course in Raising the bar: Learning and teaching better data visualization in R.
 
-More information to come!
+More material to come by !
 
 Binder container link here: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dbturner/raisethebar/binder)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e57519ed-f248-4e14-903f-93552fc95452/deploy-status)](https://app.netlify.com/sites/raisethebar/deploys)
 
 <hr>
 
