@@ -4,8 +4,7 @@ type: slides
 
 # Why Bar Graphs Are Misleading
 
-Notes: Text at the end of a slide prefixed like this will be displayed as
-speaker notes on the side. Slides can be separated with a divider: ---.
+Notes: This website is an introduction to why bar graphs can be misleading and what alternatives can be used instead
 
 ---
 
