@@ -9,7 +9,7 @@ type: chapter
 id: 1
 ---
 
-<exercise id="1" title="Introduction" type="slides">
+<exercise id="1" title="Why Bar Graphs Are Misleading" type="slides">
 
 <slides source="chapter1_01_introduction">
 </slides>
