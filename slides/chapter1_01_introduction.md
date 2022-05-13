@@ -16,7 +16,7 @@ Notes: Smith College faculty and students sampled *Elliptio complanata* mussels 
 
 ---
 
-#Mussel Density
+# Mussel Density
 
 <img src="table.png" alt="Table showing the locations (Manhan and Mill), years (2016-2019), number of quadrats sampled (21-56 depending on the year and location), and density of Elliptio complanata mussels in number per meters squared" width="90%"/>
 
