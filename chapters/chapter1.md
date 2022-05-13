@@ -1,8 +1,7 @@
 ---
-title: 'Chapter 1: Getting started'
+title: 'Chapter 1: Why Bar Graphs are Misleading'
 description:
-  'This chapter will teach you about many cool things and introduce you to the
-  most important concepts of the course.'
+  'This chapter will teach you about why bar graphs are misleading.'
 prev: null
 next: /chapter2
 type: chapter
