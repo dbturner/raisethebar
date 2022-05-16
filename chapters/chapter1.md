@@ -95,8 +95,7 @@ How can you tell what the maximum mussel length is from this graph?
 
 </opt>
 
-<opt text="The largest mussel shell length in all the groups is approximately 79 mm long
-">
+<opt text="The largest mussel shell length in all the groups is approximately 79 mm long">
 
 How can you tell what the maximum mussel length is from this graph?
 
