@@ -19,7 +19,9 @@ id: 1
 
 <img src="https://raw.githubusercontent.com/dbturner/raisethebar/main/static/length.png" alt="bar graph of mean shell lengths with standard errors" width="60%"/>
 
-**Question 1:** What is the sample size for each group?
+### Question 1:
+
+What is the sample size for each group?
 
 <choice>
 
@@ -41,7 +43,9 @@ Good job! There is no way to tell from the graph given here what the sample size
 
 </choice>
 
-**Question 2:** Mussels lengths in both locations in all four years display a normal distribution.
+### Question 2
+
+Mussels lengths in both locations in all four years display a normal distribution.
 
 <choice>
 <opt text="True">
@@ -58,7 +62,9 @@ Good job! There is no way to tell from the graph given here what the distributio
 
 </choice>
 
-**Question 3:** What is the length of the largest mussel?
+### Question 3
+
+What is the length of the largest mussel?
 
 <choice>
 
