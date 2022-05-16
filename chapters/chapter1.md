@@ -17,7 +17,8 @@ id: 1
 
 <exercise id="2" title="Bar Graph Quiz">
 
-<img src="length.png" alt="bar graph of mean shell lengths with standard errors" width="50%"/>
+
+<img src="https://raw.githubusercontent.com/dbturner/raisethebar/main/static/length.png" alt="bar graph of mean shell lengths with standard errors" width="50%"/>
 
 What is the sample size for each group?
 
@@ -95,8 +96,7 @@ How can you tell what the maximum mussel length is from this graph?
 
 </opt>
 
-<opt text="The largest mussel shell length in all the groups is approximately 79 mm long
-">
+<opt text="The largest mussel shell length in all the groups is approximately 79 mm long">
 
 How can you tell what the maximum mussel length is from this graph?
 
