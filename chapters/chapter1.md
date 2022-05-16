@@ -17,7 +17,8 @@ id: 1
 
 <exercise id="2" title="Bar Graph Quiz">
 
-<img src="length.png" alt="bar graph of mean shell lengths with standard errors" width="50%"/>
+
+<img src="https://raw.githubusercontent.com/dbturner/raisethebar/main/static/length.png" alt="bar graph of mean shell lengths with standard errors" width="50%"/>
 
 What is the sample size for each group?
 
