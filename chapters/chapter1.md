@@ -15,12 +15,12 @@ id: 1
 
 </exercise>
 
-<exercise id="2" title="Bar Graph Quiz">
+<exercise id="2" title="Bar Graph Quiz Question 1">
 
 
-<img src="https://raw.githubusercontent.com/dbturner/raisethebar/main/static/length.png" alt="bar graph of mean shell lengths with standard errors" width="50%"/>
+<img src="https://raw.githubusercontent.com/dbturner/raisethebar/main/static/length.png" alt="bar graph of mean shell lengths with standard errors" width="60%"/>
 
-What is the sample size for each group?
+**Question 1:** What is the sample size for each group?
 
 <choice>
 <opt text="all groups have large (>30) sample size">
@@ -49,8 +49,16 @@ Good job! There is no way to tell from the graph given here what the sample size
 </opt>
 </choice>
 
+</exercise>
 
-True or False: Mussels lengths in both locations in all four years display a normal distribution.
+
+<exercise id="3" title="Bar Graph Quiz Question 2">
+
+
+<img src="https://raw.githubusercontent.com/dbturner/raisethebar/main/static/length.png" alt="bar graph of mean shell lengths with standard errors" width="60%"/>
+
+
+**Question 2:** Mussels lengths in both locations in all four years display a normal distribution.
 
 <choice>
 <opt text="True">
@@ -73,8 +81,15 @@ Good job! There is no way to tell from the graph given here what the distributio
 </opt>
 </choice>
 
+</exercise>
 
-What is the length of the largest mussel?
+
+<exercise id="4" title="Bar Graph Quiz Question 3">
+
+
+<img src="https://raw.githubusercontent.com/dbturner/raisethebar/main/static/length.png" alt="bar graph of mean shell lengths with standard errors" width="60%"/>
+
+**Question 3:** What is the length of the largest mussel?
 
 <choice>
 <opt text="None of the groups have mussel shell lengths greater than 80mm">
