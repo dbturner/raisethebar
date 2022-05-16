@@ -24,8 +24,8 @@ Notes: The density of mussels decreased in the Manhan River, but increased in th
 
 ---
 
-<img src="length.png" alt="bar graph of mean shell lengths with standard errors" width="90%"/>
+<img src="length.png" alt="bar graph of mean shell lengths with standard errors" width="80%"/>
 
 
-Notes: This graph shows the average and standard error for shell length in each river in each year for live *Elliptio complanata* mussels
+Notes: This graph shows the average and standard error for shell length in each river in each year for live *Elliptio complanata* mussels. This is a very typical graph type used in biology, but is it the best type of graph to use in this case? Click to the next section to see what information you can get (or not) from this type of graph.
 
