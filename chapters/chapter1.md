@@ -43,26 +43,26 @@ Good job! There is no way to tell from the graph given here what the sample size
 
 </choice>
 
-### Question 2
+### Question 2:
 
 Mussels lengths in both locations in all four years display a normal distribution.
 
 <choice>
-<opt text="True">
+<opt text="true - the data show a normal distribution">
 How can you tell what the distribution of mussels lengths is from this graph?
 </opt>
 
-<opt text="False">
+<opt text="false - the data show a non-normal distribution">
 How can you tell what the distribution of mussels lengths is from this graph?
 </opt>
 
-<opt text="Unclear" correct="true">
+<opt text="it is unclear what the distribution of the data is" correct="true">
 Good job! There is no way to tell from the graph given here what the distribution is for each group.
 </opt>
 
 </choice>
 
-### Question 3
+### Question 3:
 
 What is the length of the largest mussel?
 
