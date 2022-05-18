@@ -92,3 +92,10 @@ Good job! There is no way to tell from the graph given here what the maximum mus
 
 </exercise>
 
+
+<exercise id="3" title="Why Bar Graphs are Misleading" type="slides">
+
+<slides source="chapter1_03_misleading">
+</slides>
+
+</exercise>
