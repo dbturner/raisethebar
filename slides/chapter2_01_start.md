@@ -39,5 +39,3 @@ In the next few sections, you will learn how to use code templates to make graph
 Notes: When learning as a novice or teaching novices, it can be helpful to start with most of the code for a particular graph type already written with just some blanks for the data, variables, and labels. Then users can fill in the blanks and tweak the code as desired if they want to try changing other aspects (colors, size, fonts, etc). During very first exposures, it can be helpful if the learner doesn't have to install anything - not R or RStudio (the two software packages needed to run R locally on your computer) and not any packages (packages that can expand the capabilities of base R to do all kinds of things are often needed and must be installed before first use).  
 
 The "Raise the Bar" website is one option for exposing novices to how to make some different graphs using R code templates without having to install anything. All you need is a browser and internet access.
-
----
