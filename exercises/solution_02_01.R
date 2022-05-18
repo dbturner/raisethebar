@@ -1,14 +1,9 @@
-
 # load the necessary packages
-library(readr) # for importing data
-library(dplyr) # for manipulating the data (=data wrangling)
-library(ggplot2) # for graphing
-library(ggbeeswarm) # for jittering the data
-
+library(ggplot2, quietly = T) # for graphing
+library(ggbeeswarm, quietly = T) # for jittering the data
 
 # import the data
-mussels <- read_csv("data/mussels.csv")
-
+mussels <- read.csv("data/mussels.csv")
 
 # simple graph with jittered points
 ggplot(                          # ggplot function makes the plot
