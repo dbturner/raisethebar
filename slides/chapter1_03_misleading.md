@@ -38,7 +38,7 @@ Notes: If you are unfamiliar with box plots, violin plots, histograms, and/or do
 
 # Mussel Length Data Graphed in 4 Ways
 
-<img src="https://raw.githubusercontent.com/dbturner/raisethebar/main/static/plots.png" alt="This image shows 4 different plot types with the same mussel length data. Bars that show means and standard errors, jittered dot plots with medians that show the distribution of the data, box plots, and violin plots. " width="90%"/>
+<img src="https://raw.githubusercontent.com/dbturner/raisethebar/main/static/plots.png" alt="This image shows 4 different plot types with the same mussel length data. Bars that show means and standard errors, jittered dot plots with medians that show the distribution of the data, box plots, and violin plots. " width="80%"/>
 
 Notes: Here we see the same *Elliptio complanata* mussel length data graphed in four different ways: 
 
@@ -77,14 +77,14 @@ Notes: Here are some more in depth best practices to help you choose the best gr
 ---
 
 # Mix and Match When Needed
-<img src="https://raw.githubusercontent.com/dbturner/raisethebar/main/static/mix.png" alt="This image shows a graph of the mussel lengths that mixes a violin, box, and dot plot." width="90%"/>
+<img src="https://raw.githubusercontent.com/dbturner/raisethebar/main/static/mix.png" alt="This image shows a graph of the mussel lengths that mixes a violin, box, and dot plot." width="80%"/>
 
 Notes: It can be helpful to mix and match different graph types to get the benefits of each to compliment each other. Here we have mixed a dot plot, box plot, and violin plot. The sample size for the number of mussels from each year in each river has also been added.
 
 ---
 
 ### A Dot Plot alone is a good choice for this dataset
-<img src="https://raw.githubusercontent.com/dbturner/raisethebar/main/static/dot2.png" alt="This image shows a dot plot of the mussel lengths that includes the sample sizes and the median." width="90%"/>
+<img src="https://raw.githubusercontent.com/dbturner/raisethebar/main/static/dot2.png" alt="This image shows a dot plot of the mussel lengths that includes the sample sizes and the median." width="80%"/>
 
 Notes: In this particular case, the dot plot with medians might be especially useful with this dataset because it clearly shows the multimodal nature of the distribution of mussel shell lengths. You can clearly see the difference in sample sizes as well as gaps in the data between different size classes.  It looks like there was a better recruitment of small mussels in 2018 in the Mill River. Note the median looks slightly higher in the Manhan River than the Mill River in 2019, but there are a lot more small mussels as well as some larger mussels in the Mill River. Since we find the mussel density has increased and there is a good mix of sizes of mussels (including those that are smaller and larger than in the Manhan River), we don’t see any clear evidence of a negative impact of managing sediment upstream in Paradise Pond.
 
