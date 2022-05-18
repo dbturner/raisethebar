@@ -25,9 +25,10 @@ Notes: We can use R (an opensource programming language and environment) to make
 # Can You Learn R or Teach it to Students with NO Experience?
 
 ## YES!
+
 Starting with code templates to make different graph types can be a relatively easy way to start learning R for faculty, researchers, and students alike that result in professional looking graphs.
 
-Notes: Smith College faculty and students sampled *Elliptio complanata* mussels in two rivers in Western Massachusetts in June of 2016-2019 to determine whether or not the college's management of sediment in Paradise Pond was impacting the mussels. At each sampling time, we set up a 10m by 30m area in the river and then chose x and y coordinates of predetermined number of random starts (in this case 3) using a systematic sampling technique (pages 10-18 in Strayer and Smith 2003). We placed a 50 cm x 50 cm quadrat at each set of coordinates, looked with a view bucket to see if any mussels were at the surface, then we excavated the substratum with a trowel or gloved hands down to about 15 cm. The excavated substrate was passed through a sieve with 4.67 mm mesh. All mussels found were identified to species, counted (also noted if on the surface or under the surface, alive or dead), and had their length measured to the 0.1mm.
+Notes: Graphs are fun to make and if you have a code template or example to tweak, it isn't that hard to make an impressive one. Manipulating data (often called "data wrangling") to get it in the right format to use in analysis can often be the hardest part of any analysis process (and learning how to do this with code is a steep learning curve). So you can have novice learners prepare the data in a spreadsheet program they already know (such as Excel or Google Sheets), import into R (or provide cleaned up data already imported), and then use code templates to get the graphs you want. 
 
 ---
 
@@ -35,6 +36,8 @@ Notes: Smith College faculty and students sampled *Elliptio complanata* mussels 
 
 In the next few sections, you will learn how to use code templates to make graphs in R
 
-Notes: When learning as a novice or teaching novices, it can be helpful to start with most of the code for a particular graph type already written with just some blanks to fill in the data, variables, and labels. Then users can also tweak the code as desired if they want to try changing other aspects (colors, size, fonts, etc). During very first exposures, it can be helpful if the learner doesn't have to install anything - not R or RStudio (the two software packages needed to run R locally on your computer) and not any packages (packages that can expand the capabilities of base R to do all kinds of things are often needed and must be installed before first use). The "Raise the Bar" website is one option for exposing novices to how to make some different graphs using R code templates without having to install anything. All you need is a browser and internet access.
+Notes: When learning as a novice or teaching novices, it can be helpful to start with most of the code for a particular graph type already written with just some blanks for the data, variables, and labels. Then users can fill in the blanks and tweak the code as desired if they want to try changing other aspects (colors, size, fonts, etc). During very first exposures, it can be helpful if the learner doesn't have to install anything - not R or RStudio (the two software packages needed to run R locally on your computer) and not any packages (packages that can expand the capabilities of base R to do all kinds of things are often needed and must be installed before first use).  
+
+The "Raise the Bar" website is one option for exposing novices to how to make some different graphs using R code templates without having to install anything. All you need is a browser and internet access.
 
 ---
