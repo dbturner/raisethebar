@@ -8,7 +8,6 @@ type: chapter
 id: 2
 ---
 
-
 <exercise id="1" title="Getting Started in R" type="slides">
 
 <slides source="chapter2_01_start">
