@@ -15,13 +15,11 @@ id: 1
 
 </exercise>
 
-<exercise id="2" title="Bar Graph Quiz">
+<exercise id="2" title="Bar Graph Question 1">
 
 <img src="https://raw.githubusercontent.com/dbturner/raisethebar/main/static/length.png" alt="bar graph of mean shell lengths with standard errors. The y-axis limits go from 0-80mm. The greatest means reach to about 75mm, while the smallest means are around 45mm." width="60%"/>
 
-### Question 1:
-
-What is the sample size for each group?
+### What is the sample size for each group?
 
 <choice>
 
@@ -42,10 +40,13 @@ Good job! There is no way to tell from the graph given here what the sample size
 </opt>
 
 </choice>
+</exercise>
 
-### Question 2:
+<exercise id="3" title="Bar Graph Question 2">
 
-Mussels lengths in both locations in all four years display a normal distribution.
+<img src="https://raw.githubusercontent.com/dbturner/raisethebar/main/static/length.png" alt="bar graph of mean shell lengths with standard errors. The y-axis limits go from 0-80mm. The greatest means reach to about 75mm, while the smallest means are around 45mm." width="60%"/>
+
+### Mussels lengths in both locations in all four years display a normal distribution.
 
 <choice>
 
@@ -62,10 +63,13 @@ Good job! There is no way to tell from the graph given here what the distributio
 </opt>
 
 </choice>
+</exercise>
 
-### Question 3:
+<exercise id="4" title="Bar Graph Question 3">
 
-What is the length of the largest mussel?
+<img src="https://raw.githubusercontent.com/dbturner/raisethebar/main/static/length.png" alt="bar graph of mean shell lengths with standard errors. The y-axis limits go from 0-80mm. The greatest means reach to about 75mm, while the smallest means are around 45mm." width="60%"/>
+
+### What is the length of the largest mussel?
 
 <choice>
 
@@ -93,20 +97,18 @@ Good job! There is no way to tell from the graph given here what the maximum mus
 
 </exercise>
 
-<exercise id="3" title="Why Bar Graphs are Misleading" type="slides">
+<exercise id="5" title="Why Bar Graphs are Misleading" type="slides">
 
-<slides source="chapter1_03_misleading">
+<slides source="chapter1_05_misleading">
 </slides>
 
 </exercise>
 
-<exercise id="4" title="Dot Plot Quiz">
+<exercise id="5" title="Dot Plot Question 1">
 
 <img src="https://raw.githubusercontent.com/dbturner/raisethebar/main/static/dot2.png" alt="dot plot of individual mussel lengths jittered to show distribution of data and with median shown as a horizontal bar. Sample sizes from 29-219 shown. Points in each group show some clumpy clouds of points. Maximum values for all groups approach or exceed 100 mm." width="60%"/>
 
-### Question 1:
-
-What is the sample size for each group?
+### What is the sample size for each group?
 
 <choice>
 
@@ -127,10 +129,13 @@ Good job! The sample sizes for each group (N) are given at the top of the graph 
 </opt>
 
 </choice>
+</exercise>
 
-### Question 2:
+<exercise id="6" title="Dot Plot Question 2">
 
-Mussels lengths in both locations in all four years display a normal distribution.
+<img src="https://raw.githubusercontent.com/dbturner/raisethebar/main/static/dot2.png" alt="dot plot of individual mussel lengths jittered to show distribution of data and with median shown as a horizontal bar. Sample sizes from 29-219 shown. Points in each group show some clumpy clouds of points. Maximum values for all groups approach or exceed 100 mm." width="60%"/>
+
+### Mussels lengths in both locations in all four years display a normal distribution.
 
 <choice>
 
@@ -147,10 +152,13 @@ Look at the distribution of the jittered points in each group - do they all look
 </opt>
 
 </choice>
+</exercise>
 
-### Question 3:
+<exercise id="7" title="Dot Plot Question 3">
 
-What is the length of the largest mussel?
+<img src="https://raw.githubusercontent.com/dbturner/raisethebar/main/static/dot2.png" alt="dot plot of individual mussel lengths jittered to show distribution of data and with median shown as a horizontal bar. Sample sizes from 29-219 shown. Points in each group show some clumpy clouds of points. Maximum values for all groups approach or exceed 100 mm." width="60%"/>
+
+### What is the length of the largest mussel?
 
 <choice>
 
