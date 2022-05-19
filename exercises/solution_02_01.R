@@ -1,6 +1,6 @@
 # load the necessary packages
-library(ggplot2, warn.conflicts= F, quietly = T) # for graphing
-library(ggbeeswarm, quietly = T) # for jittering the data
+library(ggplot2) # for graphing
+library(ggbeeswarm) # for jittering the data
 
 # import the data
 mussels <- read.csv("data/mussels.csv")
