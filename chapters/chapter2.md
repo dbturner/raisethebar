@@ -26,7 +26,7 @@ To run the code, click the "Run Code" button.
 
 <codeblock id="02_01">
 
-There are no blanks here, so you don't really need a hint. But feel free to click "Reset" if you change anything and want to change it back.
+There are no blanks here and you don't need to make any changes. Click "Reset" if you change anything and want to change it back.
 
 </codeblock>
 
