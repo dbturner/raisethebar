@@ -174,7 +174,8 @@ Excellent! While it is hard to tell the precise values, you can see that the max
 The maximum mussel length for each location in each year varies
 </opt>
 
-<opt text="The largest mussel shell length in all the groups is approximately 79 mm long"> The maximum mussel length for each location in each year varies </opt>
+<opt text="The largest mussel shell length in all the groups is approximately 79 mm long"> The maximum mussel length for each location in each year varies
+</opt>
 
 <opt text="It is unclear from this graph what the maximum mussel shell length is for each group">
 Unlike the bar graph where you could not tell what the maximum mussel length is for each group, this graph clearly shows the maximum because you can see all the points.
