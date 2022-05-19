@@ -1,5 +1,5 @@
 # load the necessary packages
-library(ggplot2, quietly = T) # for graphing
+library(ggplot2, warn.conflicts= F, quietly = T) # for graphing
 library(ggbeeswarm, quietly = T) # for jittering the data
 
 # import the data
