@@ -3,6 +3,7 @@ type: slides
 ---
 
 # Getting Started in R
+
 ### Why use R?
 
 - It’s free, open source
@@ -36,6 +37,7 @@ Manipulating data (often called "data wrangling") to get it in the right format 
 ---
 
 # Learn How to Use Code Templates to Make Graphs
+
 ## In the next few sections, you will learn how to use code templates to make graphs in R
 
 Notes: When learning as a novice or teaching novices, it can be helpful to start with most of the code for a particular graph type already written with just some blanks for the data, variables, and labels. Then users can fill in the blanks and tweak the code as desired if they want to try changing other aspects (colors, size, fonts, etc). 
