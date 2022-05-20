@@ -18,6 +18,8 @@ Notes: Did those previous three questions help you see that bar graphs can be mi
 
 Are there other graph types that can help use answer these questions more effectively?
 
+Notes: Bar graphs may not help use answer questions about the distribution, sample size, or range of data, but there are other graph types that can help us answer these questions.
+
 ---
 
 # Other Graph Types
@@ -32,7 +34,9 @@ Here are some resources if you would like to familiarize yourself with some alte
 - [Dot plots using geebeeswarm in ggplot2](https://github.com/eclarke/ggbeeswarm)
 
 
-Notes: If you are unfamiliar with box plots, violin plots, histograms, and/or dot plots, then check out these resources to help you understand the different graph types we will be discussing next in more detail before you move to the next section. A note on terminology for the 4th graph type above - we use the term "dot plot" here, but a plot that shows all the points for different groups can also be called a beewarm-stye plot, jitter plot, violin scatter plot, column scatter plot, jittered strip plot, jittered individual value plot, among others. 
+Notes: If you are unfamiliar with box plots, violin plots, histograms, and/or dot plots, then check out these resources to help you understand the different graph types we will be discussing next in more detail before you move to the next section. 
+
+A note on terminology for the 4th graph type in the list - we use the term "dot plot" here, but a plot that shows all the points for different groups can also be called a beewarm-stye plot, jitter plot, violin scatter plot, column scatter plot, jittered strip plot, jittered individual value plot, among others. 
 
 ---
 
@@ -40,7 +44,10 @@ Notes: If you are unfamiliar with box plots, violin plots, histograms, and/or do
 
 <img src="https://raw.githubusercontent.com/dbturner/raisethebar/main/static/plots.png" alt="This image shows 4 different plot types with the same mussel length data. Bars that show means and standard errors, jittered dot plots with medians that show the distribution of the data, box plots, and violin plots. " width="80%"/>
 
-Notes: Here we see the same *Elliptio complanata* mussel length data graphed in four different ways: 
+Notes: 
+(right click on the image and select "open image in new tab" if the graphs are getting cut off)
+
+Here we see the same *Elliptio complanata* mussel length data graphed in four different ways: 
 
 1. Bar plots showing the means and standard errors, 
 2. Dot plots showing individual points jittered to show the data distribution and the median shown as the horizontal bar,
