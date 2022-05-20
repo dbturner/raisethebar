@@ -9,4 +9,4 @@ mussels <- read.csv("data/mussels.csv")
 ggplot(                          # ggplot function makes the plot
   data=mussels,                  # give the name of the data to use here
   aes(x=location, y=length)) +   # aes = aesthetics, define x and y variables here
-  geom_quasirandom()             # geom_quasirandom jitters the points to show the distribution
+  geom_quasirandom()             # jitters the points to show the distribution
