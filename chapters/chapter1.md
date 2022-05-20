@@ -36,7 +36,7 @@ How can you tell that the sample sizes are equal from this graph?
 </opt>
 
 <opt text="the number in each group is not clear from this graph" correct="true">
-Good job! There is no way to tell from the graph given here what the sample size is for each group.
+There is no way to tell from the graph given here what the sample size is for each group.
 </opt>
 
 </choice>
@@ -59,7 +59,7 @@ How can you tell what the distribution of mussels lengths is from this graph?
 </opt>
 
 <opt text="it is unclear what the distribution of the data is" correct="true">
-Good job! There is no way to tell from the graph given here what the distribution is for each group.
+There is no way to tell from the graph given here what the distribution is for each group.
 </opt>
 
 </choice>
@@ -90,7 +90,7 @@ How can you tell what the maximum mussel length is from this graph?
 </opt>
 
 <opt text="It is unclear from this graph what the maximum mussel shell length is for each group" correct="true">
-Good job! There is no way to tell from the graph given here what the maximum mussel length is.
+There is no way to tell from the graph given here what the maximum mussel length is.
 </opt>
 
 </choice>
@@ -125,7 +125,7 @@ Sample sizes are shown and are not equal
 </opt>
 
 <opt text="the number in each group varies between 29-219 mussels" correct="true">
-Good job! The sample sizes for each group (N) are given at the top of the graph and clearly show the sample size varies among rivers and years.
+The sample size for each group (N) is given at the top of the graph. The sample size varies among rivers and years.
 </opt>
 
 </choice>
@@ -144,7 +144,7 @@ The jittered points do not show a normal distribution. Some are multimodal.
 </opt>
 
 <opt text="false, the data show a non-normal distribution" correct="true">
-Great work! Some of the data is multimodal and the data are not all normally distributed.
+Some of the data is multimodal and the data are not all normally distributed.
 </opt>
 
 <opt text="it is unclear what the distribution of the data is">
@@ -167,14 +167,15 @@ Can you see that many of the mussels clearly go above 80mm? Compare this to the 
 </opt>
 
 <opt text="All of the groups have a maximum mussel shell length that is greater than 80mm" correct="true">
-Excellent! While it is hard to tell the precise values, you can see that the maximum mussel length reaches close to at least 100 mm for all the years in the Manahan River and the maximum value is well over 100 mm for all the mussles measured in the Mill Rivevr.
+While it is hard to tell the precise values, you can see that the maximum mussel length reaches close to at least 100 mm for all the years in the Manahan River and the maximum value is well over 100 mm for all the mussles measured in the Mill Rivevr.
 </opt>
 
-<opt text="The largest mussel shell in all the groups is approximately 131 mm long">
+<opt text="The largest mussel shell in all the groups is approximately 150 mm long">
+The maximum mussel length for each location in each year varies, but none reach to 150 mm
+</opt>
+
+<opt text="The largest mussel shell length in all the groups is approximately 80 mm long">
 The maximum mussel length for each location in each year varies
-</opt>
-
-<opt text="The largest mussel shell length in all the groups is approximately 79 mm long"> The maximum mussel length for each location in each year varies
 </opt>
 
 <opt text="It is unclear from this graph what the maximum mussel shell length is for each group">
