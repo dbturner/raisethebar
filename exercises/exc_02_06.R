@@ -30,5 +30,5 @@ ggplot(                          # ggplot function makes the plot
     show.legend = FALSE) +       # removes legend for just medians    
   ylab("Shell Length (mm)") +    # adds a custom label for the y-axis
   xlab("Location") +             # adds a custom label for the x-axis
-  theme_classic(base_size=20)    # uses theme to format (removes gray background)
-                                 # base_size=20 sets the font size to 20pts
+  theme_classic(base_size=20) +  # uses theme to format (removes gray background)
+  facet_wrap(vars(season))

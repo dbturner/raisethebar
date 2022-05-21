@@ -1,14 +1,14 @@
 ---
-title: 'Chapter 2: Practice Making Graphs'
+title: 'Chapter 2: Getting Started Making Graphs in R'
 description:
-  'This chapter will use template code to help you learn how to make different types of graphs using the ggplot2 package in R.'
+  'This chapter will use template code to help you learn how to make a dot plot using the ggplot2 package in R.'
 prev: /chapter1
 next: null
 type: chapter
 id: 2
 ---
 
-<exercise id="1" title="Getting Started in R" type="slides">
+<exercise id="1" title="Getting Started with Graphing in R" type="slides">
 
 <slides source="chapter2_01_start">
 </slides>
@@ -60,5 +60,33 @@ Now let's add a measure of central tendency. Since the data do not look normal, 
 There are no blanks here and you don't need to make any changes. Click "Reset" if you change anything and want to change it back.
 
 </codeblock>
+
+Now let's get a little fancy and add another factor - in this case year. For the way the data was imported, it automatically treated year as an integer. But we want it to be a factor. So we will add a line of code to make year a factor. 
+
+To add year as a factor in the graph, we will add it in the aesthetics mapping (aes) as the color and the fill. We will also use `dodge.width` in the `geom_quasirandom` function and `position=position_dodge(width= )` in the `stat_summary` function to shift the years over within each location so they do not overlap each other.
+
+<codeblock id="02_05">
+
+There are no blanks here and you don't need to make any changes. Click "Reset" if you change anything and want to change it back.
+
+</codeblock>
+
+Last but not least, let's add a third factor - season. This time we will use `facet_wrap` to make a separate panel of the same graph for each season
+
+<codeblock id="02_06">
+
+There are no blanks here and you don't need to make any changes. Click "Reset" if you change anything and want to change it back.
+
+</codeblock>
+
+We didn't measure mussels in 2017-2019 in the fall so the graph looks a little asymmetrical. Let's try filtering to just keep 2015 and 2016 using `filter` from the {dplyr} package
+
+<codeblock id="02_07">
+
+There are no blanks here and you don't need to make any changes. Click "Reset" if you change anything and want to change it back.
+
+</codeblock>
+
+In the next chapter, you will be given template code to make a variety of graphs so you can decide what type you like best and you can play around changing different parameters to see what different parts of the code does.
 
 </exercise>
