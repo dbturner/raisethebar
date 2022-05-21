@@ -28,7 +28,7 @@ ggplot(
                geom = "crossbar", 
                width = 0.6, size = 0.6, color = "black",   #adjust as needed
                position=position_dodge(width=0.75),        #match dodge.width for geom_quasirandom
-               show.legend = FALSE,) +
+               show.legend = FALSE) +
   ylab("Shell Length (mm)") +
   xlab("Location") +
   coord_cartesian(ylim = c(0, 150), xlim = c(0.5,2.5), expand=FALSE) +

@@ -4,7 +4,7 @@ type: slides
 
 # Getting Started in R
 
-### Why use R?
+## Why use R?
 
 - It’s free, open source
 - TONS of resources & flexibility
@@ -16,7 +16,6 @@ type: slides
   - Everything (clean, analyze, plot, communicate data) all in one
 - Highly transferable skill
 - Used by an increasing number of ecologists
-
 
 Notes: We can use R (an opensource programming language and environment) to make just about any graph you want, but it is not the easiest to learn. So why learn R? R is useful to learn because it is free, flexible, reproducible, transferable, and used by an increasing number of ecologists. 
 
