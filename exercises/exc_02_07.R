@@ -1,13 +1,13 @@
 # load the necessary packages
 library(ggplot2)    # for graphing
-library(dplyr)      # for data wrangling
+library(dplyr, warn.conflicts = FALSE)      # for data wrangling
 library(ggbeeswarm) # for jittering the data
 
 # import the data
 mussels <- read.csv("data/mussels.csv")
 
 # filter to keep 2015 & 2016
-mussels <- dplyr::filter(mussels, year<2017)
+mussels <- filter(mussels, year<2017)
 
 # make year a factor
 mussels$year <- as.factor(mussels$year)
