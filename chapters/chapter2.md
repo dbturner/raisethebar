@@ -53,4 +53,12 @@ There are no blanks here and you don't need to make any changes. Click "Reset" i
 
 </codeblock>
 
+Now let's add a measure of central tendency. Since the data do not look normal, let's add a median using the `stat_summary` function.
+
+<codeblock id="02_04">
+
+There are no blanks here and you don't need to make any changes. Click "Reset" if you change anything and want to change it back.
+
+</codeblock>
+
 </exercise>
