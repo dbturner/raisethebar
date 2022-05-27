@@ -2,7 +2,7 @@
 type: slides
 ---
 
-# Bar Graphs with Means and Error Bars Can Be Misleading
+## Bar Graphs with Means and Error Bars Can Be Misleading
 
 - Does not show the distribution, range, or sample size of the actual values
 - Misleads because of common belief that values fall within the bar rather than above
@@ -22,7 +22,7 @@ Notes: Bar graphs may not help use answer questions about the distribution, samp
 
 ---
 
-# Other Graph Types
+## Other Graph Types
 
 There are lots of other graphs types that can be useful for data with a continuous dependent variable grouped by a categorical independent variable.
 
@@ -40,7 +40,7 @@ A note on terminology for the 4th graph type in the list - we use the term "dot 
 
 ---
 
-# Mussel Length Data Graphed in 4 Ways
+## Mussel Length Data Graphed in 4 Ways
 
 <img src="https://raw.githubusercontent.com/dbturner/raisethebar/main/static/plots.png" alt="This image shows 4 different plot types with the same mussel length data. Bars that show means and standard errors, jittered dot plots with medians that show the distribution of the data, box plots, and violin plots. " width="80%"/>
 
@@ -56,7 +56,7 @@ Here we see the same *Elliptio complanata* mussel length data graphed in four di
 
 ---
 
-# Visualizing Grouped Continuous Data
+## Visualizing Grouped Continuous Data
 (dependent variable is continuous, independent variable(s) categorical)
 
 - Show all points or distribution whenever possible
@@ -83,7 +83,7 @@ Notes: Here are some more in depth best practices to help you choose the best gr
 
 ---
 
-# Mix and Match When Needed
+## Mix and Match When Needed
 <img src="https://raw.githubusercontent.com/dbturner/raisethebar/main/static/mix.png" alt="This image shows a graph of the mussel lengths that mixes a violin, box, and dot plot." width="80%"/>
 
 Notes: It can be helpful to mix and match different graph types to get the benefits of each to compliment each other. Here we have mixed a dot plot, box plot, and violin plot. The sample size for the number of mussels from each year in each river has also been added.
