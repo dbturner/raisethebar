@@ -88,11 +88,10 @@ Notes: Here are some more in depth best practices to help you choose the best gr
 
 Notes: It can be helpful to mix and match different graph types to get the benefits of each to compliment each other. Here we have mixed a dot plot, box plot, and violin plot. The sample size for the number of mussels from each year in each river has also been added.
 
----
+In this particular case, the distribution of mussel shell lengths is multimodal (several clumps), which suggests different size/age classes of mussels. 
 
-### A Dot Plot alone is a good choice for this dataset
-<img src="https://raw.githubusercontent.com/dbturner/raisethebar/main/static/dot2.png" alt="This image shows a dot plot of the mussel lengths that includes the sample sizes and the median." width="80%"/>
+Since we moved sediment upstream of the mussels in the Mill River, the 2016 samples are considered our "before" samples, while the other years are "after". To see a negative impact of sediment redistribution on the mussels in the Mill River, we might expect to see a decrease in mussel density or size in the Mill River (our "impact" site) compared to the Manhan River (our "control" site) after sediment is moved.
 
-Notes: In this particular case, the dot plot with medians might be especially useful with this dataset because it clearly shows the multimodal nature of the distribution of mussel shell lengths. You can clearly see the difference in sample sizes as well as gaps in the data between different size classes.  It looks like there was a better recruitment of small mussels in 2018 in the Mill River. Note the median looks slightly higher in the Manhan River than the Mill River in 2019, but there are a lot more small mussels as well as some larger mussels in the Mill River. Since we find the mussel density has increased and there is a good mix of sizes of mussels (including those that are smaller and larger than in the Manhan River), we don’t see any clear evidence of a negative impact of managing sediment upstream in Paradise Pond.
+It looks like there was a better recruitment of small mussels in 2018 in the Mill River. Note the median looks slightly higher in the Manhan River than the Mill River in 2019, but there are a lot more small mussels as well as some larger mussels in the Mill River. Since we find the mussel density has increased (see Table 1 in the chapter 1 Introduction slide set) and there is a good mix of sizes of mussels (including those that are smaller and larger than in the Manhan River).  We don’t see any clear evidence of a negative impact of managing sediment upstream in Paradise Pond.
 
 In the next chapter, we will practice using template code to make these different graphs using R
