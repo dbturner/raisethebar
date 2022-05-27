@@ -2,9 +2,9 @@
 type: slides
 ---
 
-# Getting Started in R
+## Getting Started in R
 
-## Why use R?
+### Why use R?
 
 - It’s free, open source
 - TONS of resources & flexibility
@@ -23,9 +23,9 @@ When it comes to graphing grouped continuous data like, we saw in chapter 1 that
 
 ---
 
-# Can You Learn R or Teach it to Students with NO Experience?
+## Can You Learn R or Teach it to Students with NO Experience?
 
-## YES!
+### YES!
 
 Starting with code templates to make different graph types can be a relatively easy way to start learning R for faculty, researchers, and students alike that result in professional looking graphs.
 
@@ -35,9 +35,9 @@ Manipulating data (often called "data wrangling") to get it in the right format 
 
 ---
 
-# Learn How to Use Code Templates to Make Graphs
+## Learn How to Use Code Templates to Make Graphs
 
-## In the next few sections, you will learn how to use code templates to make graphs in R
+### In the next few sections, you will learn how to use code templates to make graphs in R
 
 Notes: When learning as a novice or teaching novices, it can be helpful to start with most of the code for a particular graph type already written with just some blanks for the data, variables, and labels. Then users can fill in the blanks and tweak the code as desired if they want to try changing other aspects (colors, size, fonts, etc). 
 

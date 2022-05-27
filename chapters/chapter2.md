@@ -20,7 +20,7 @@ id: 2
 Let's try making a simple dot plot with the mussel length data. To start, let's just look at some code to import data and make a simple graph.
 In the code chunk below (gray box), there are several lines of code that will load the packages needed, import the mussel length data, and make a graph comparing the lengths of all the mussels from the two rivers.
 
-To help you understand what the different parts of the code do, there are comments included.  Any text after the "#" is considered a comment and is ignored by R. Keep in mind that you should always heavily comment your own code when you start writing code so your future self remembers what your past self did and why.
+To help you understand what the different parts of the code do, there are comments included.  Any text after the "#" is considered a comment and is ignored by R. Keep in mind that you should always heavily comment your own code so your future self remembers what your past self did and why.
 
 To run the code, click the "Run Code" button.
 
@@ -86,6 +86,10 @@ We didn't measure mussels in 2017-2019 in the fall so the graph looks a little a
 There are no blanks here and you don't need to make any changes. Click "Reset" if you change anything and want to change it back.
 
 </codeblock>
+
+Phew - that was a lot of new information if you are new to R. It will take time to fully understand all the code. But the good news is, you can still use template code with some blanks in it to make your own graphs even if you don't understand all the code itself.
+
+If you want to learn about graphing with {ggplot2} in more depth, see [Chapter 3 Data Visualization](https://r4ds.had.co.nz/data-visualisation.html) from the [R for Data Science](https://r4ds.had.co.nz/index.html) online textbook.
 
 In the next chapter, you will be given template code to make a variety of graphs so you can decide what type you like best and you can play around changing different parameters to see what different parts of the code does.
 
