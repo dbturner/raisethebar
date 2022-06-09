@@ -1,7 +1,7 @@
 
 # load the necessary packages
 library(readr) # for importing data
-library(dplyr) # for manipulating the data (=data wrangling)
+library(dplyr, warn.conflicts = FALSE) # for manipulating the data (=data wrangling)
 library(ggplot2) # for graphing
 
 #import data
@@ -20,7 +20,6 @@ ggplot(
   data=___, #data frame name
   aes(x=___, y=___, color=___, fill=___)) + #x, color, and fill should all be the same, y is different
   geom_boxplot(
-    position=position_dodge(width=0.75), #adjust as needed
     width=0.4, alpha=0.75,               #adjust these values as needed
     show.legend = TRUE) +       
   ylab("___") +  #formatted y-axis label here

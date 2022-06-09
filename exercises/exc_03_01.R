@@ -1,7 +1,7 @@
 
 # load the necessary packages
 library(readr) # for importing data
-library(dplyr) # for manipulating the data (=data wrangling)
+library(dplyr, warn.conflicts = FALSE) # for manipulating the data (=data wrangling)
 library(ggplot2) # for graphing
 library(ggbeeswarm) # for jittering the data
 
@@ -30,10 +30,8 @@ mussels %>%
     data = .,   #the . is a place holder to put the filtered data from above here 
     aes(x=___, y=mean, fill = ___))+ #put categorical variable in both blanks
   geom_bar(stat="identity",  
-           position=position_dodge(), 
            width = 0.75, show.legend=TRUE)+
   geom_errorbar(aes(ymin=mean-sem, ymax=mean+sem), 
-                position=position_dodge(width=0.75),
                 width=0.2, size=0.5) +
   ylab("___") +  #put y-axis label with units here (numerical var)
   xlab("___") +           #put x-axis label here (categorical variable)

@@ -1,10 +1,9 @@
 
 # load the necessary packages
 library(readr) # for importing data
-library(dplyr) # for manipulating the data (=data wrangling)
+library(dplyr, warn.conflicts = FALSE) # for manipulating the data (=data wrangling)
 library(ggplot2) # for graphing
 library(ggbeeswarm) # for jittering the data
-
 
 #import data
 mussels <- read_csv("data/mussels.csv", 
@@ -12,6 +11,9 @@ mussels <- read_csv("data/mussels.csv",
                       location = col_factor(levels = c("Manhan", "Mill")), 
                       season = col_factor(levels = c("Summer", "Fall")), 
                       year = col_factor())) %>% 
+  
+  #filter the data to only include Elliptio mussels that were alive
+  #in the summers of 2016-2019
   filter(species == "EC", season == "Summer", alive == "A", year != "2015")
 
 
@@ -22,7 +24,7 @@ n_fun <- function(x){
 }
 
 
-##Graph with jittered points
+##Mix of box, violin, and dot plot
 ggplot(
   data=mussels, 
   aes(x=location, y=length, color=year, fill=year)) + #1st factor is x, continuous var is y, 2nd factor is color and fill
