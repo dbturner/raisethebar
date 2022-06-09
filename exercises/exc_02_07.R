@@ -1,6 +1,6 @@
 # load the necessary packages
 library(ggplot2)    # for graphing
-library(dplyr, warn.conflicts = FALSE)      # for data wrangling
+library(dplyr, warn.conflicts = FALSE) # for manipulating the data (=data wrangling)
 library(ggbeeswarm) # for jittering the data
 
 # import the data

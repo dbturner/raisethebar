@@ -5,7 +5,6 @@ library(dplyr) # for manipulating the data (=data wrangling)
 library(ggplot2) # for graphing
 library(ggbeeswarm) # for jittering the data
 
-
 #import data
 mussels <- read_csv("data/mussels.csv", 
                     col_types = readr::cols(
