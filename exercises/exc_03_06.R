@@ -15,12 +15,13 @@ mussels <- read_csv("data/mussels.csv",
   #in the summers of 2016-2019
   filter(species == "EC", season == "Summer", alive == "A", year != "2015")
 
-#box plot
+#violin plot
 ggplot(
-  data=mussels, #data frame name
-  aes(x=location, y=length, color=location, fill=location)) + #x, color, and fill should all be the same, y is different
-  geom_boxplot(
-    width=0.4, alpha=0.75,               #adjust these values as needed
+  data=mussels, 
+  aes(x=location, y=length, color=year, fill=year)) + #1st factor is x, continuous var is y, 2nd factor is color and fill
+  geom_violin(
+    position=position_dodge(width=0.75), #adjust as needed
+    width=0.8, alpha=0.75,               #adjust these values as needed
     show.legend = TRUE) +       
   ylab("Shell Length (mm)") +  #formatted y-axis label here
   xlab("Location") +           #formatted x-axis label here

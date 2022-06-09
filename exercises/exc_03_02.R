@@ -1,7 +1,7 @@
 
 # load the necessary packages
 library(readr) # for importing data
-library(dplyr) # for manipulating the data (=data wrangling)
+library(dplyr, warn.conflicts = FALSE) # for manipulating the data (=data wrangling)
 library(ggplot2) # for graphing
 library(ggbeeswarm) # for jittering the data
 
