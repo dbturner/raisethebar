@@ -22,7 +22,7 @@ ggplot(
   data=mussels, 
   aes(x=location, y=length, color=year, fill=year)) + #1st factor is x, continuous var is y, 2nd factor is color and fill
   geom_violin(
-    width=2, alpha=0.2, 
+    width=1, alpha=0.2, 
     position=position_dodge(width=0.75), #match with geom_boxplot
     show.legend = TRUE) +
   geom_boxplot(
