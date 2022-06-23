@@ -3,7 +3,7 @@ title: 'Chapter 2: Getting Started Making Graphs in R'
 description:
   'This chapter will use template code to help you learn how to make a dot plot using the ggplot2 package in R.'
 prev: /chapter1
-next: null
+next: /chapter2
 type: chapter
 id: 2
 ---
