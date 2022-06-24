@@ -17,12 +17,43 @@ id: 2
 
 <exercise id="2" title="Making a Dot Plot">
 
-Let's try making a simple dot plot with the mussel length data. To start, let's just look at some code to import data and make a simple graph.
-In the code chunk below (gray box), there are several lines of code that will load the packages needed, import the mussel length data, and make a graph comparing the lengths of all the mussels from the two rivers.
+Let's try making a dot plot with the mussel length data. 
 
-To help you understand what the different parts of the code do, there are comments included.  Any text after the "#" is considered a comment and is ignored by R. Keep in mind that you should always heavily comment your own code so your future self remembers what your past self did and why.
+In the code chunk below (gray box), there are several lines of code that will load the packages needed, import the mussel length data, and make a graph comparing the shell lengths of all the mussels from the two rivers.
 
-To run the code, click the "Run Code" button.
+Don't worry about looking carefully at the code below, just run it to see what the resulting graph looks like.
+
+To run the code, click the "Run Code" button. 
+
+Please note that the first time you run code on this website it may take quite a while to activate everything behind the scenes (it will say something like "Loading Docker container on mybinder.org... "). Be patient, it will run the code eventually. After the first time you run the code, all the code after that should run quickly.
+
+<codeblock id="02_08">
+
+There are no blanks here and you don't need to make any changes. Click "Reset" if you change anything and want to change it back.
+
+</codeblock>
+
+To be able to understand the code that made this graph and be able to tweak template code effectively going forward, let's break down the essential parts of a ggplot graph.
+
+All ggplot graphs must have at least three essential elements (in addition to the `ggplot` call itself):
+
+1. `data= ` tells ggplot what data to use
+2. `aes()`  tells ggplot what aesthetic mapping to use including which columns in the data should be used for the x and y variables. There are also other aesthetics you can set including color, fill, shape, size, etc depending on the types of graph. See [Aesthetic specifications](https://ggplot2.tidyverse.org/articles/ggplot2-specs.html) for more information
+3. You must add at least one geometric object using `geom_ ()` to tell ggplot what type of graph to make. See the list of possible [Geoms](https://ggplot2.tidyverse.org/reference/index.html#geoms)
+
+You can add many other lines of code to customize your graph to make it look just how you want. But let's start with the MOST basic plot possible.
+
+Inspect the code below and note that is contains the three essential elements of a ggplot graph. To help you understand what the different parts of the code do, there are comments included.  Any text after a "#" is considered a comment and is ignored by R. Keep in mind that you should always heavily comment your own code so your future self remembers what your past self did and why.
+
+Run the code below to see what using just the three essential elements will graph:
+
+<codeblock id="02_09">
+
+There are no blanks here and you don't need to make any changes. Click "Reset" if you change anything and want to change it back.
+
+</codeblock>
+
+This is not the prettiest graph, but you can see that it does give us a point for each shell length for the mussels from each river. Because our variable on the x-axis is categorical and there are lots of similarly sized mussels, the points overlap each other too much which makes patterns in the data difficult to see. So let's "jitter" the points horizontally using a special `geom` called `geom_quasirandom` from an extension package called {ggbeeswarm} by running the code below.
 
 <codeblock id="02_01">
 
@@ -30,7 +61,7 @@ There are no blanks here and you don't need to make any changes. Click "Reset" i
 
 </codeblock>
 
-This is a simple graph that is not formatted as well as it could be. 
+This graph looks better in that we can see the shape of the data after jittering using `geom_quasirandom`, but this is still a simple graph that is not formatted as well as it could be. 
 
 Let's add nicer axis titles (including adding the units!). To add new elements when graphing using `ggplot`, add a plus symbol at the end of each line except for the last one.
 
@@ -44,7 +75,7 @@ That looks a little nicer doesn't it. Let's add some color.
 
 Code to customize the points is included inside of the `geom_quasirandom` function (since that is the function that is making the points for us). Feel free to play around with the size, shape, alpha, color, and fill to see what these functions do. 
 
-- Try different shapes by looking at some options here: [The different point shapes available in R](http://www.sthda.com/english/wiki/r-plot-pch-symbols-the-different-point-shapes-available-in-r)
+- Try different shapes by looking at some options here: [Point shapes](https://ggplot2.tidyverse.org/articles/ggplot2-specs.html#sec:shape-spec)
 - You can use a color reference guide such as this one to pick other colors for the color (outline) and fill (inside): [ggplot2 Quick Reference: colour (and fill)](http://sape.inf.usi.ch/quick-reference/ggplot2/colour)
 
 <codeblock id="02_03">
@@ -53,7 +84,7 @@ There are no blanks here and you don't need to make any changes. Click "Reset" i
 
 </codeblock>
 
-Now let's add a measure of central tendency. Since the data do not look normal, let's add a median using the `stat_summary` function.
+Now let's add a measure of central tendency by using the `stat_summary` function. Since the data do not look normal, we will use the median (but note that you can replace the word median with mean to add the mean instead).
 
 <codeblock id="02_04">
 
@@ -89,7 +120,7 @@ There are no blanks here and you don't need to make any changes. Click "Reset" i
 
 Phew - that was a lot of new information if you are new to R. It will take time to fully understand all the code. But the good news is, you can still use template code with some blanks in it to make your own graphs even if you don't understand all the code itself.
 
-If you want to learn about graphing with {ggplot2} in more depth, see [Chapter 3 Data Visualization](https://r4ds.had.co.nz/data-visualisation.html) from the [R for Data Science](https://r4ds.had.co.nz/index.html) online textbook.
+If you want to learn about graphing with {ggplot2} in more depth, see the list of [Learning ggplot2](https://ggplot2.tidyverse.org/index.html#learning-ggplot2) resources on the {ggplot2} webpage.
 
 In the next chapter, you will be given template code to make a variety of graphs so you can decide what type you like best and you can play around changing different parameters to see what different parts of the code does.
 
