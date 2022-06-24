@@ -25,7 +25,7 @@ Don't worry about looking carefully at the code below, just run it to see what t
 
 To run the code, click the "Run Code" button. 
 
-Please note that the first time you run code on this website it may take quite a while to activate everything behind the scenes (it will say something like "Loading Docker container on mybinder.org... "). Be patient, it will run the code eventually. After the first time you run the code, all the code after that should run quickly.
+Please note that the first time you run code on this website it may take quite a while to activate everything behind the scenes (it will say something like "Launching Docker container on mybinder.org... "). Be patient, it will run the code eventually. After the first time you run the code, all the code after that should run quickly.
 
 <codeblock id="02_08">
 
