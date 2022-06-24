@@ -177,7 +177,7 @@ click "Reset" if you want to start over with the original code.
 
 </exercise>
 
-<exercise id="4" title="Mixed plots">
+<exercise id="5" title="Mixed plots">
 
 In this section, we will practice making plots where you mix different graph types together (such as box, violin, and dot plots)
 
