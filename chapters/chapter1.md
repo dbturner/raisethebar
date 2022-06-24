@@ -104,7 +104,7 @@ There is no way to tell from the graph given here what the maximum mussel length
 
 </exercise>
 
-<exercise id="5" title="Dot Plot Question 1">
+<exercise id="6" title="Dot Plot Question 1">
 
 <img src="https://raw.githubusercontent.com/dbturner/raisethebar/main/static/dot2.png" alt="dot plot of individual mussel lengths jittered to show distribution of data and with median shown as a horizontal bar. Sample sizes from 29-219 shown. Points in each group show some clumpy clouds of points. Maximum values for all groups approach or exceed 100 mm." width="60%"/>
 
@@ -131,7 +131,7 @@ The sample size for each group (N) is given at the top of the graph. The sample 
 </choice>
 </exercise>
 
-<exercise id="6" title="Dot Plot Question 2">
+<exercise id="7" title="Dot Plot Question 2">
 
 <img src="https://raw.githubusercontent.com/dbturner/raisethebar/main/static/dot2.png" alt="dot plot of individual mussel lengths jittered to show distribution of data and with median shown as a horizontal bar. Sample sizes from 29-219 shown. Points in each group show some clumpy clouds of points. Maximum values for all groups approach or exceed 100 mm." width="60%"/>
 
@@ -154,7 +154,7 @@ Look at the distribution of the jittered points in each group - do they all look
 </choice>
 </exercise>
 
-<exercise id="7" title="Dot Plot Question 3">
+<exercise id="8" title="Dot Plot Question 3">
 
 <img src="https://raw.githubusercontent.com/dbturner/raisethebar/main/static/dot2.png" alt="dot plot of individual mussel lengths jittered to show distribution of data and with median shown as a horizontal bar. Sample sizes from 29-219 shown. Points in each group show some clumpy clouds of points. Maximum values for all groups approach or exceed 100 mm." width="60%"/>
 
