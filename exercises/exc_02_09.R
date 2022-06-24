@@ -1,6 +1,5 @@
 # load the necessary packages
 library(ggplot2) # for graphing
-library(ggbeeswarm) # for jittering the data
 
 # import the data
 mussels <- read.csv("data/mussels.csv")
