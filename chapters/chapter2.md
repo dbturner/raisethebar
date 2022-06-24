@@ -43,7 +43,9 @@ All ggplot graphs must have at least three essential elements (in addition to th
 
 You can add many other lines of code to customize your graph to make it look just how you want. But let's start with the MOST basic plot possible.
 
-Inspect the code below and note that is contains the three essential elements of a ggplot graph. To help you understand what the different parts of the code do, there are comments included.  Any text after a "#" is considered a comment and is ignored by R. Keep in mind that you should always heavily comment your own code so your future self remembers what your past self did and why.
+Inspect the code below and note that it (1) loads the packages necessary (in this case {ggplot2}), (2) imports the data needed, and then (3) makes the graph using `ggplot` plus the three essential elements described above (in this case using `geom_point` as the geometric object).
+
+To help you understand what the different parts of the code do, there are comments included.  Any text after a "#" is considered a comment and is ignored by R. Keep in mind that you should always heavily comment your own code so your future self remembers what your past self did and why.
 
 Run the code below to see what using just the three essential elements will graph:
 
