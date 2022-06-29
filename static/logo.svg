@@ -1,14 +1,91 @@
-<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" version="1.1">
- <clipPath id="p.0">
-  <path clip-rule="nonzero" d="m0,0l960,0l0,384l-960,0l0,-384z" id="svg_1"/>
- </clipPath>
+<svg viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
  <g class="layer">
   <title>Layer 1</title>
-  <text fill="#5c88b5" font-family="Lato" font-size="56" font-style="italic" font-weight="bold" id="svg_10" stroke-width="0" text-anchor="middle" x="134" xml:space="preserve" y="62">Raise</text>
-  <text fill="#ffaa56" font-family="Lato" font-size="56" font-style="italic" font-weight="bold" id="svg_3" stroke-width="0" text-anchor="middle" x="157" xml:space="preserve" y="119.5">the</text>
-  <text fill="#db5959" font-family="Lato" font-size="56" font-style="italic" font-weight="bold" id="svg_4" stroke-width="0" text-anchor="middle" x="237" xml:space="preserve" y="184.5">bar</text>
-  <rect fill="#5c88b5" height="51" id="svg_5" stroke-width="0" width="50" x="10" y="18"/>
-  <rect fill="#ffaa56" height="52" id="svg_6" stroke-width="0" width="100.99999" x="9" y="77.5"/>
-  <rect fill="#db5959" height="54" id="svg_7" stroke-width="0" width="182.99998" x="8" y="139.5">the</rect>
+  <circle cx="156" cy="305" fill="#aad4ff" id="svg_1" r="13" stroke="#007fff">Raise</circle>
+  <circle cx="154" cy="336.5" fill="#aad4ff" id="svg_5" r="13" stroke="#007fff" transform="matrix(1 0 0 1 0 0)">Raise</circle>
+  <circle cx="152" cy="366.5" fill="#aad4ff" id="svg_7" r="13" stroke="#007fff" transform="matrix(1 0 0 1 0 0)">Raise</circle>
+  <circle cx="181" cy="357.5" fill="#aad4ff" id="svg_13" r="13" stroke="#007fff" transform="matrix(1 0 0 1 0 0)">Raise</circle>
+  <circle cx="126" cy="380.5" fill="#aad4ff" id="svg_17" r="13" stroke="#007fff" transform="matrix(1 0 0 1 0 0)">Raise</circle>
+  <circle cx="146" cy="403.5" fill="#aad4ff" id="svg_20" r="13" stroke="#007fff" transform="matrix(1 0 0 1 0 0)">Raise</circle>
+  <circle cx="173" cy="422.5" fill="#aad4ff" id="svg_22" r="13" stroke="#007fff">Raise</circle>
+  <circle cx="126" cy="299.5" fill="#aad4ff" id="svg_26" r="13" stroke="#007fff" transform="matrix(1 0 0 1 0 0)">Raise</circle>
+  <circle cx="175" cy="391.5" fill="#aad4ff" id="svg_33" r="13" stroke="#007fff" transform="matrix(1 0 0 1 0 0)">Raise</circle>
+  <circle cx="149" cy="274.5" fill="#aad4ff" id="svg_36" r="13" stroke="#007fff">Raise</circle>
+  <circle cx="137" cy="430.5" fill="#aad4ff" id="svg_38" r="13" stroke="#007fff" transform="matrix(1 0 0 1 0 0)">Raise</circle>
+  <circle cx="160" cy="452.5" fill="#aad4ff" id="svg_39" r="13" stroke="#007fff" transform="matrix(1 0 0 1 0 0)">Raise</circle>
+  <circle cx="336.5" cy="374" fill="#ffaaaa" id="svg_75" r="13" stroke="#bf0000"/>
+  <circle cx="319.5" cy="350" fill="#ffaaaa" id="svg_73" r="13" stroke="#bf0000"/>
+  <circle cx="345.5" cy="347" fill="#ffaaaa" id="svg_67" r="13" stroke="#bf0000"/>
+  <circle cx="380.5" cy="209" fill="#ffaaaa" id="svg_66" r="13" stroke="#bf0000"/>
+  <circle cx="338.5" cy="403" fill="#ffaaaa" id="svg_64" r="13" stroke="#bf0000" transform="matrix(1 0 0 1 0 0)"/>
+  <circle cx="365.5" cy="370" fill="#ffaaaa" id="svg_61" r="13" stroke="#bf0000"/>
+  <circle cx="365.5" cy="323" fill="#ffaaaa" id="svg_54" r="13" stroke="#bf0000"/>
+  <circle cx="308.5" cy="396" fill="#ffaaaa" id="svg_53" r="13" stroke="#bf0000" transform="matrix(1 0 0 1 0 0)"/>
+  <circle cx="343.5" cy="428" fill="#ffaaaa" id="svg_47" r="13" stroke="#bf0000"/>
+  <circle cx="336.5" cy="228.5" fill="#ffaaaa" id="svg_98" r="13" stroke="#bf0000" transform="matrix(1 0 0 1 0 0)"/>
+  <circle cx="363.5" cy="235.5" fill="#ffaaaa" id="svg_96" r="13" stroke="#bf0000"/>
+  <circle cx="348.5" cy="262.5" fill="#ffaaaa" id="svg_95" r="13" stroke="#bf0000"/>
+  <circle cx="373.5" cy="272.5" fill="#ffaaaa" id="svg_94" r="13" stroke="#bf0000"/>
+  <circle cx="389.5" cy="246.5" fill="#ffaaaa" id="svg_93" r="13" stroke="#bf0000"/>
+  <circle cx="354.5" cy="295.5" fill="#ffaaaa" id="svg_86" r="13" stroke="#bf0000"/>
+  <circle cx="325.5" cy="293.5" fill="#ffaaaa" id="svg_85" r="13" stroke="#bf0000"/>
+  <circle cx="383.5" cy="298.5" fill="#ffaaaa" id="svg_81" r="13" stroke="#bf0000"/>
+  <circle cx="318.5" cy="264.5" fill="#ffaaaa" id="svg_79" r="13" stroke="#bf0000"/>
+  <circle cx="347" cy="201.5" fill="#ffaaaa" id="svg_100" r="13" stroke="#bf0000"/>
+  <circle cx="95" cy="370.5" fill="#aad4ff" id="svg_104" r="13" stroke="#007fff" transform="matrix(1 0 0 1 0 0)">Raise</circle>
+  <circle cx="202" cy="381.5" fill="#aad4ff" id="svg_109" r="13" stroke="#007fff">Raise</circle>
+  <circle cx="313" cy="425.5" fill="#ffaaaa" id="svg_112" r="13" stroke="#bf0000"/>
+  <circle cx="378" cy="429.5" fill="#ffaaaa" id="svg_124" r="13" stroke="#bf0000"/>
+  <circle cx="353" cy="456.5" fill="#ffaaaa" id="svg_125" r="13" stroke="#bf0000"/>
+  <circle cx="546" cy="252" fill="#e6f7d4" id="svg_192" r="13" stroke="#48a048">Raise</circle>
+  <circle cx="550" cy="279" fill="#e6f7d4" id="svg_191" r="13" stroke="#48a048">Raise</circle>
+  <circle cx="579" cy="281" fill="#e6f7d4" id="svg_189" r="13" stroke="#48a048">Raise</circle>
+  <circle cx="577" cy="250" fill="#e6f7d4" id="svg_187" r="13" stroke="#48a048">Raise</circle>
+  <circle cx="515" cy="253" fill="#e6f7d4" id="svg_186" r="13" stroke="#48a048">Raise</circle>
+  <circle cx="560" cy="224" fill="#e6f7d4" id="svg_185" r="13" stroke="#48a048">Raise</circle>
+  <circle cx="522" cy="283" fill="#e6f7d4" id="svg_182" r="13" stroke="#48a048">Raise</circle>
+  <circle cx="585" cy="308" fill="#e6f7d4" id="svg_180" r="13" stroke="#48a048">Raise</circle>
+  <circle cx="553" cy="309" fill="#e6f7d4" id="svg_171" r="13" stroke="#48a048">Raise</circle>
+  <circle cx="525" cy="311" fill="#e6f7d4" id="svg_170" r="13" stroke="#48a048">Raise</circle>
+  <circle cx="514" cy="336" fill="#e6f7d4" id="svg_164" r="13" stroke="#48a048">Raise</circle>
+  <circle cx="528" cy="141" fill="#e6f7d4" id="svg_162" r="13" stroke="#48a048">Raise</circle>
+  <circle cx="530" cy="173.5" fill="#e6f7d4" id="svg_161" r="13" stroke="#48a048">Raise</circle>
+  <circle cx="503" cy="159.5" fill="#e6f7d4" id="svg_160" r="13" stroke="#48a048">Raise</circle>
+  <circle cx="563" cy="129.5" fill="#e6f7d4" id="svg_159" r="13" stroke="#48a048">Raise</circle>
+  <circle cx="554" cy="155.5" fill="#e6f7d4" id="svg_154" r="13" stroke="#48a048">Raise</circle>
+  <circle cx="518" cy="198.5" fill="#e6f7d4" id="svg_153" r="13" stroke="#48a048">Raise</circle>
+  <circle cx="529" cy="224.5" fill="#e6f7d4" id="svg_151" r="13" stroke="#48a048">Raise</circle>
+  <circle cx="553" cy="191.5" fill="#e6f7d4" id="svg_149" r="13" stroke="#48a048">Raise</circle>
+  <circle cx="583" cy="205.5" fill="#e6f7d4" id="svg_146" r="13" stroke="#48a048">Raise</circle>
+  <circle cx="491" cy="192.5" fill="#e6f7d4" id="svg_145" r="13" stroke="#48a048">Raise</circle>
+  <circle cx="580" cy="174.5" fill="#e6f7d4" id="svg_144" r="13" stroke="#48a048">Raise</circle>
+  <circle cx="566.5" cy="357.5" fill="#e6f7d4" id="svg_138" r="13" stroke="#48a048">Raise</circle>
+  <circle cx="493.5" cy="270.5" fill="#e6f7d4" id="svg_137" r="13" stroke="#48a048">Raise</circle>
+  <circle cx="499.5" cy="230.5" fill="#e6f7d4" id="svg_133" r="13" stroke="#48a048">Raise</circle>
+  <circle cx="573.5" cy="329.5" fill="#e6f7d4" id="svg_131" r="13" stroke="#48a048">Raise</circle>
+  <circle cx="528.5" cy="363.5" fill="#e6f7d4" id="svg_126" r="13" stroke="#48a048">Raise</circle>
+  <circle cx="545.5" cy="340.5" fill="#e6f7d4" id="svg_45" r="13" stroke="#48a048">Raise</circle>
+  <circle cx="210" cy="349" fill="#aad4ff" id="svg_202" r="13" stroke="#007fff">Raise</circle>
+  <text fill="#005fbf" font-family="Sans-serif" font-size="65" font-style="italic" font-weight="bold" id="svg_205" letter-spacing="0" stroke="#000000" stroke-width="0" text-anchor="middle" transform="matrix(1 0 0 1 0 0) matrix(1.54029 -0.535574 0.552192 1.58808 -222.075 -200.912)" x="122.97" xml:space="preserve" y="310.73">Raise</text>
+  <text fill="#d85252" font-family="Sans-serif" font-size="65" font-style="italic" font-weight="bold" id="svg_209" letter-spacing="0" stroke="#000000" stroke-width="0" text-anchor="middle" transform="matrix(1 0 0 1 0 0) matrix(1.54029 -0.535574 0.552192 1.58808 -222.075 -200.912)" x="270.04" xml:space="preserve" y="311.68">the</text>
+  <text fill="#007f00" font-family="Sans-serif" font-size="65" font-style="italic" font-weight="bold" id="svg_210" letter-spacing="0" stroke="#000000" stroke-width="0" text-anchor="middle" transform="matrix(1.54029 -0.535574 0.552192 1.58808 -222.075 -200.912)" x="382.12" xml:space="preserve" y="312.33">Bar</text>
+  <circle cx="183" cy="329.5" fill="#aad4ff" id="svg_212" r="13" stroke="#007fff" transform="matrix(1 0 0 1 0 0)">Raise</circle>
+  <line fill="none" id="svg_3" stroke="#7f7f7f" stroke-width="3" x1="458" x2="614" y1="260.5" y2="260.5">Raise</line>
+  <circle cx="310" cy="238.5" fill="#ffaaaa" id="svg_4" r="13" stroke="#bf0000" transform="matrix(1 0 0 1 0 0)"/>
+  <circle cx="385" cy="347.5" fill="#ffaaaa" id="svg_8" r="13" stroke="#bf0000"/>
+  <circle cx="371" cy="399.5" fill="#ffaaaa" id="svg_9" r="13" stroke="#bf0000" transform="matrix(1 0 0 1 0 0)"/>
+  <circle cx="401" cy="274.5" fill="#ffaaaa" id="svg_10" r="13" stroke="#bf0000"/>
+  <circle cx="297" cy="283.5" fill="#ffaaaa" id="svg_11" r="13" stroke="#bf0000"/>
+  <circle cx="296" cy="369.5" fill="#ffaaaa" id="svg_12" r="13" stroke="#bf0000"/>
+  <circle cx="396" cy="374.5" fill="#ffaaaa" id="svg_15" r="13" stroke="#bf0000"/>
+  <circle cx="333" cy="321.5" fill="#ffaaaa" id="svg_16" r="13" stroke="#bf0000" transform="matrix(1 0 0 1 0 0)"/>
+  <circle cx="320" cy="203.5" fill="#ffaaaa" id="svg_19" r="13" stroke="#bf0000"/>
+  <circle cx="362" cy="175.5" fill="#ffaaaa" id="svg_21" r="13" stroke="#bf0000"/>
+  <circle cx="401" cy="402.5" fill="#ffaaaa" id="svg_23" r="13" stroke="#bf0000" transform="matrix(1 0 0 1 0 0)"/>
+  <circle cx="127" cy="327.5" fill="#aad4ff" id="svg_24" r="13" stroke="#007fff">Raise</circle>
+  <circle cx="120" cy="354.5" fill="#aad4ff" id="svg_25" r="13" stroke="#007fff" transform="matrix(1 0 0 1 0 0)">Raise</circle>
+  <line fill="none" id="svg_27" stroke="#7f7f7f" stroke-width="3" x1="68" x2="224" y1="369.5" y2="369.5">Raise</line>
+  <line fill="none" id="svg_28" stroke="#7f7f7f" stroke-width="3" x1="273.5" x2="429.5" y1="321.5" y2="321.5">Raise</line>
  </g>
 </svg>
