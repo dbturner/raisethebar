@@ -1,7 +1,7 @@
 <img src="static/logo.svg" align="center" width="200px"/>
 Thanks for visiting our course in Raising the bar: Learning and teaching better data visualization in R.
 
-More material to come by Summer 2022!
+This website was built for the 2022 ESA/CSEE Workshop in Montreal, Canada.
 
 Binder container link here: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dbturner/raisethebar/binder)
 
