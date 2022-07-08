@@ -24,7 +24,7 @@ Notes: Bar graphs may not help use answer questions about the distribution, samp
 
 ## Other Graph Types
 
-There are lots of other graphs types that can be useful for data with a continuous dependent variable grouped by a categorical independent variable.
+There are lots of other graph types that can be useful for data with a continuous dependent variable grouped by a categorical independent variable.
 
 Here are some resources if you would like to familiarize yourself with some alternative graph types
 

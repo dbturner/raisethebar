@@ -27,7 +27,7 @@ When it comes to graphing grouped continuous data like, we saw in chapter 1 that
 
 ### YES!
 
-Starting with code templates to make different graph types can be a relatively easy way to start learning R for faculty, researchers, and students alike that result in professional looking graphs.
+Starting with code templates to make different graph types can be a relatively easy way to start learning R for faculty, researchers, and students alike that results in professional looking graphs.
 
 Notes: Graphs are fun to make and if you have a code template or example to tweak, it isn't that hard to make an impressive one. 
 
