@@ -18,16 +18,16 @@ mussels <- read_csv("data/mussels.csv",
   filter(species == "EC", season == "Summer", alive == "A", year != "2015")
 
 ##calculate the mean and SE for length with location and year as factors
-mussels %>%
+mussels.sum <- mussels %>%
   group_by(location,year) %>%
   summarise(mean = mean(length), 
             sd = sd(length), 
             n = n()) %>%
-  mutate(sem = sd/(sqrt(n))) %>% 
+  mutate(sem = sd/(sqrt(n))) 
   
   ##Make bar plot with mean and SE
   ggplot(
-    data = .,   #the . is a place holder to put the filtered data from above here
+    data = mussels.sum,   #use the summarized data here 
     aes(x=location, y=mean, fill=year))+
   geom_bar(stat="identity",  
            position=position_dodge(), 

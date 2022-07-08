@@ -24,6 +24,8 @@ Make sure you put `location` in for the categorical variable and `length` for th
 
 Below is the code used to make the bar graph in Chapter 1 to give you a starting point with a 2 factor example (when there are two categorical grouping variables). There is no "solution" here, just play around with the code and see what happens. 
 
+* Change the various values (width, size, ylim, xlim, base_size) to see what they do
+
 * Try changing what is filtered for and see what happens. For example:
   - replace "A" with "D" to see what the lengths of the dead mussels are, 
   - change "Summer" to "Fall", 
@@ -32,8 +34,6 @@ Below is the code used to make the bar graph in Chapter 1 to give you a starting
 * Try changing the categorical variables and see what that does. For example, 
   - change the code so there is only one factor (change to just `year` or `location` - make sure to make the `x` and `fill` match when using just one factor, and change the xlim to `xlim = c(0.5, 4.5)` if just using year as a factor),
   - remove the season part in the `filter` function (delete `season == "Summer",`) and use `season` instead of `year`
-
-* Change the various values (width, size, ylim, xlim, base_size) to see what they do
 
 <codeblock id="03_02">
 
@@ -64,6 +64,8 @@ Make sure you put `mussels` for the data frame, `location` for the categorical v
 
 Below is the code used to make the box plot in Chapter 1 to give you a starting point with a 2 factor example (when there are two categorical grouping variables). There is no "solution" here, just play around with the code and see what happens. 
 
+* Change the various values (width, alpha, ylim, xlim, base_size) to see what they do
+
 * Try changing what is filtered for and see what happens. For example:
   - replace "A" with "D" to see what the lengths of the dead mussels are, 
   - change "Summer" to "Fall", 
@@ -72,8 +74,6 @@ Below is the code used to make the box plot in Chapter 1 to give you a starting 
 * Try changing the categorical variables and see what that does. For example, 
   - change the code so there is only one factor (change to just `year` or `location` - make sure to make the `x` and `fill` match when using just one factor, and change the xlim to `xlim = c(0.5, 4.5)` if just using year as a factor),
   - remove the season part in the `filter` function (delete `season == "Summer",`) and use `season` instead of `year`
-
-* Change the various values (width, alpha, ylim, xlim, base_size) to see what they do
 
 <codeblock id="03_04">
 
@@ -106,6 +106,8 @@ Make sure you put `mussels` for the data frame, `location` for the categorical v
 
 Below is the code used to make the violin plot in Chapter 1 to give you a starting point with a 2 factor example (when there are two categorical grouping variables). There is no "solution" here, just play around with the code and see what happens. 
 
+* Change the various values (width, alpha, ylim, xlim, base_size) to see what they do
+
 * Try changing what is filtered for and see what happens. For example:
   - replace "A" with "D" to see what the lengths of the dead mussels are, 
   - change "Summer" to "Fall", 
@@ -114,8 +116,6 @@ Below is the code used to make the violin plot in Chapter 1 to give you a starti
 * Try changing the categorical variables and see what that does. For example, 
   - change the code so there is only one factor (change to just `year` or `location` - make sure to make the `x` and `fill` match when using just one factor, and change the xlim to `xlim = c(0.5, 4.5)` if just using year as a factor),
   - remove the season part in the `filter` function (delete `season == "Summer",`) and use `season` instead of `year`
-
-* Change the various values (width, alpha, ylim, xlim, base_size) to see what they do
 
 <codeblock id="03_06">
 
@@ -148,6 +148,12 @@ Make sure you put `mussels` for the data frame, `location` for the categorical v
 
 Below is the code used to make the dot plot in Chapter 1 to give you a starting point with a 2 factor example (when there are two categorical grouping variables). There is no "solution" here, just play around with the code and see what happens. 
 
+* Change the various values (alpha, size, dodge.width, width, ylim, xlim, base_size, etc) to see what they do
+
+* Change the three places it says `median` to `mean` in the `stat_summary()` function
+
+* Change the shape of the points (see some other options here - [ggplot2 point shapes](http://www.sthda.com/english/wiki/ggplot2-point-shapes))
+
 * Try changing what is filtered for and see what happens. For example:
   - replace "A" with "D" to see what the lengths of the dead mussels are, 
   - change "Summer" to "Fall", 
@@ -156,12 +162,6 @@ Below is the code used to make the dot plot in Chapter 1 to give you a starting 
 * Try changing the categorical variables and see what that does. For example, 
   - change the code so there is only one factor (change to just `year` or `location` - make sure to make the `x` and `fill` match when using just one factor, and change the xlim to `xlim = c(0.5, 4.5)` if just using year as a factor),
   - remove the season part in the `filter` function (delete `season == "Summer",`) and use `season` instead of `year`
-
-* Change the various values (alpha, size, dodge.width, width, ylim, xlim, base_size, etc) to see what they do
-
-* Change the three places it says `median` to `mean` in the `stat_summary()` function
-
-* Change the shape of the points (see some other options here - [ggplot2 point shapes](http://www.sthda.com/english/wiki/ggplot2-point-shapes))
 
 <codeblock id="03_08">
 
@@ -193,6 +193,10 @@ Make sure you put `mussels` for the data frame, `location` for the categorical v
 
 Below is the code used to make the mixed plot in Chapter 1 to give you a starting point with a 2 factor example (when there are two categorical grouping variables). There is no "solution" here, just play around with the code and see what happens. 
 
+* Change the various values (alpha, size, dodge.width, width, ylim, xlim, base_size, etc) to see what they do
+
+* Change the shape of the points (see some other options here - [ggplot2 point shapes](http://www.sthda.com/english/wiki/ggplot2-point-shapes))
+
 * Try changing what is filtered for and see what happens. For example:
   - replace "A" with "D" to see what the lengths of the dead mussels are, 
   - change "Summer" to "Fall", 
@@ -201,10 +205,6 @@ Below is the code used to make the mixed plot in Chapter 1 to give you a startin
 * Try changing the categorical variables and see what that does. For example, 
   - change the code so there is only one factor (change to just `year` or `location` - make sure to make the `x` and `fill` match when using just one factor, and change the xlim to `xlim = c(0.5, 4.5)` if just using year as a factor),
   - remove the season part in the `filter` function (delete `season == "Summer",`) and use `season` instead of `year`
-
-* Change the various values (alpha, size, dodge.width, width, ylim, xlim, base_size, etc) to see what they do
-
-* Change the shape of the points (see some other options here - [ggplot2 point shapes](http://www.sthda.com/english/wiki/ggplot2-point-shapes))
 
 <codeblock id="03_10">
 
