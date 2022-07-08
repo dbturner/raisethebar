@@ -18,16 +18,16 @@ mussels <- read_csv("data/mussels.csv",
   filter(species == "EC", season == "Summer", alive == "A", year != "2015")
 
 ##calculate the mean and SE
-mussels %>%
+mussels.sum <- mussels %>%
   group_by(___) %>%            #replace blank with categorical variable
   summarise(mean = mean(___),    #replace blank with numerical variable
             sd = sd(___),        #replace blank with same numerical variable
             n = n()) %>%
-  mutate(sem = sd/(sqrt(n))) %>% 
+  mutate(sem = sd/(sqrt(n))) 
   
   ##Make bar plot with mean and SE
   ggplot(
-    data = .,   #the . is a place holder to put the filtered data from above here 
+    data = mussels.sum,   #use the summarized data here
     aes(x=___, y=mean, fill = ___))+ #put categorical variable in both blanks
   geom_bar(stat="identity",  
            width = 0.75, show.legend=TRUE)+
